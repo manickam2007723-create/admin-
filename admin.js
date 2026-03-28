@@ -3,7 +3,7 @@ document.getElementById('addProductForm').addEventListener('submit', async (e) =
     
     // Check if user has entered real keys
     if (SUPABASE_URL.includes('YOUR_SUPABASE') || !supabase) {
-        alert("Wait! You must put your real Supabase URL and Key in config.js before adding products.");
+        alert("Wait! You must put your real Supabase URL and Key in supabaseClient.js before adding products.");
         return;
     }
 
